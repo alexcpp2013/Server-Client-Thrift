@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeServer", "TimeServer\TimeServer.csproj", "{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeServerClient", "TimeServerClient\TimeServerClient.csproj", "{B66613C6-7284-4F7A-BB83-1EBE23FBD410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeServerCore", "TimeServerCore\TimeServerCore.csproj", "{73384935-7FFB-4CED-A028-BE9CFA955FFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "soft", "soft", "{B7E6402C-C8DE-4C8D-899D-AAF9EEB62170}"
+	ProjectSection(SolutionItems) = preProject
+		soft\thrift-0.9.1.exe = soft\thrift-0.9.1.exe
+		soft\Thrift.dll = soft\Thrift.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{43CD97A6-FC73-44F3-9F36-A7133F2CC33D}.Release|x86.ActiveCfg = Release|Any CPU
+		{B66613C6-7284-4F7A-BB83-1EBE23FBD410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66613C6-7284-4F7A-BB83-1EBE23FBD410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66613C6-7284-4F7A-BB83-1EBE23FBD410}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B66613C6-7284-4F7A-BB83-1EBE23FBD410}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B66613C6-7284-4F7A-BB83-1EBE23FBD410}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B66613C6-7284-4F7A-BB83-1EBE23FBD410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66613C6-7284-4F7A-BB83-1EBE23FBD410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66613C6-7284-4F7A-BB83-1EBE23FBD410}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B66613C6-7284-4F7A-BB83-1EBE23FBD410}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B66613C6-7284-4F7A-BB83-1EBE23FBD410}.Release|x86.ActiveCfg = Release|Any CPU
+		{73384935-7FFB-4CED-A028-BE9CFA955FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73384935-7FFB-4CED-A028-BE9CFA955FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73384935-7FFB-4CED-A028-BE9CFA955FFB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{73384935-7FFB-4CED-A028-BE9CFA955FFB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{73384935-7FFB-4CED-A028-BE9CFA955FFB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{73384935-7FFB-4CED-A028-BE9CFA955FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73384935-7FFB-4CED-A028-BE9CFA955FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73384935-7FFB-4CED-A028-BE9CFA955FFB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{73384935-7FFB-4CED-A028-BE9CFA955FFB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{73384935-7FFB-4CED-A028-BE9CFA955FFB}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
